@@ -10,6 +10,5 @@ int main(void)
 	   if(min>*p) min=*p;
 	}
 	printf("max=%d,min=%d\n",max,min);
-	
 	return 0;
 }
