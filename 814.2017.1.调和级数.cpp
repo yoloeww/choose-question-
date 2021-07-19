@@ -8,6 +8,6 @@ int main(void)
        sum=sum+(1.0)/(n+1);
 	   n++;
    }
-   printf("第%d项的值大于9\n",n+1);
+   printf("碌脷%d脧卯碌脛脰碌麓贸脫脷9\n",n+1);
    return 0;
 }
