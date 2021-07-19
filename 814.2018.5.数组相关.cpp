@@ -22,13 +22,13 @@ int main(void)
 {
 	
 	int a[M][M],i,j;
-	printf("ÇëÊäÈë5x5µÄÊı×é:\n");
+	printf("è¯·è¾“å…¥5x5çš„æ•°ç»„:\n");
 	for(i=0;i<M;i++)
 		for(j=0;j<M;j++)
 			scanf("%d",&a[i][j]);
 		num(a);
-  printf("Ö÷¶Ô½ÇÏßÔªËØÎª\n%d",sum1);
-  printf("¸±¶Ô½ÇÏßÔªËØÎª\n%d",sum2);
-  printf("¶Ô½ÇÏßÔªËØÎª\n%d",sum);
+  printf("ä¸»å¯¹è§’çº¿å…ƒç´ ä¸º\n%d",sum1);
+  printf("å‰¯å¯¹è§’çº¿å…ƒç´ ä¸º\n%d",sum2);
+  printf("å¯¹è§’çº¿å…ƒç´ ä¸º\n%d",sum);
   return 0;
 }
