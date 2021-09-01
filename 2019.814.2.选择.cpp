@@ -5,10 +5,10 @@ int main(void)
 	void sort(int *a,int *b);
 	int i,j,max;
 	int a[N];
-	printf("请输入十个数:\n");
+	printf("璇疯緭鍏ュ崄涓暟:\n");
     for(i=0;i<N;i++)
 		scanf("%d",&a[i]);
-	/*for(i=0;i<N-1;i++)  选择排序
+	/*for(i=0;i<N-1;i++)  閫夋嫨鎺掑簭
 	{
 	    max=0;
 		for(j=1;j<N-i;j++)
@@ -18,7 +18,7 @@ int main(void)
 		}
      sort(&a[j-1],&a[max]);
 	}*/
-	for(i=0;i<N-1;i++)   //冒泡排序
+	for(i=0;i<N-1;i++)   //鍐掓场鎺掑簭
 		for(j=0;j<N-1-i;j++)
 		{
 			 if(a[j]>a[j+1])
