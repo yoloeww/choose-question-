@@ -10,8 +10,8 @@ int main(void)
    l=PI*2*r;
    s=PI*r*r;
    v=PI*r*r*h;
-   printf("Բ�ܳ�Ϊ%4.2lf\n",l);
-    printf("Բ���Ϊ%4.2lf\n",s);
-	 printf("Բ�����Ϊ%4.2lf\n",v);
+   printf("圆周长为%4.2lf\n",l);
+    printf("圆面积为%4.2lf\n",s);
+	 printf("圆柱体积为%4.2lf\n",v);
 	 return 0;
 }
