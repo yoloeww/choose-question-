@@ -12,9 +12,9 @@ if(*a>*b)
 int main(void)
 {
 int a,b;
-printf("请输入两个数:\n");
+printf("璇疯緭鍏ヤ袱涓暟:\n");
 scanf("%d%d",&a,&b);
 sort(&a,&b);
-printf("三个数由小到大排列为:%d %d \n",a,b);
+printf("涓変釜鏁扮敱灏忓埌澶ф帓鍒椾负:%d %d \n",a,b);
 return 0;
 }
