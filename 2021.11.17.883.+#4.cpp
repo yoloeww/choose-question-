@@ -8,10 +8,10 @@ int main(void)
    FILE *fp;
    int i;
    void sort(char a[N][M]);
-   fp=fopen("D:\\��ʫ.txt","w");
+   fp=fopen("D:\\¹ÅÊ«.txt","w");
    if(fp==NULL)
    {
-       printf("��ʧ��\n");
+       printf("´ò¿ªÊ§°Ü\n");
 	   exit(-1);
    }
    char str [N][M];
@@ -35,7 +35,7 @@ void sort(char a[N][M])
 	int len[N];
 	for(i=0;i<N;i++)
 	{
-	   len[i]=strlen(a[i]);
+	   len[i]=strlen(a[i]);               //尽量单独算出字符串长度，不容易出错
 	}
     for(i=0;i<N;i++)
 	{
